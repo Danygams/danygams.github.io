@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="style_page.css" rel="stylesheet" type="text/css">
+<link href="../style_page.css" rel="stylesheet" type="text/css">
+<link href="../CSS/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en HTML</h1>
+</header>
+<nav>	<ul id="nav">
+	<li><a href="../index.html" class="enlaces enlaces2">Inicio</a></li>
+	<li><a href="Mi_primera_web.html" class="enlaces enlaces2">Formatos de textos</a></li>
+	<li><a href="listas 2.html" class="enlaces enlaces2">Listas</a></li>
+	<li><a href="Enlaces.html" class="enlaces enlaces2">Enlaces</a></li>
+	<li><a href="Tablas.html" class="enlaces enlaces2">Tablas</a></li>
+	<li><a href="../Imágenes/Imágenes.html" class="enlaces2 enlaces">Imágenes</a></li>
+	  <li><a href="Audio.html" class="enlaces enlaces2"> Audio</a></li>
+	<li><a href="Video.html" class="enlaces enlaces2"> Video</a></li>
+	<li><a href="Formularios.html" class="enlaces enlaces2"> Formularios</a></li>
+	</ul></nav>
+<main>
+  <section>
+    <h2>Tabla sencilla</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pretium erat, in malesuada arcu. Mauris posuere nunc eu nulla bibendum, id fermentum eros viverra. Donec aliquam, dolor non tincidunt suscipit, metus libero iaculis sem, eu rhoncus nunc arcu at erat. Phasellus ut lectus sit amet mi vulputate dignissim.</p>
+    <table border="1" class="tabla_centrada">
+	  <thead>
+		  <tr>
+		  <th>NOMBRES</th>
+		  <th>APELLIDOS</th>
+		  <th>TELÉFONO</th>
+		  </tr>
+		  </thead>
+	  <tbody>
+		  <tr>
+		  <td>DANIELA</td>
+		  <td>Gamboa Romero</td>
+		  <td>2224641947</td>
+		  </tr>
+		  <tr>
+		  <td>Carlos</td>
+		  <td>Ponce Serrano</td>
+		  <td>221354865</td>
+		  </tr>
+		  <tr>
+		  	<td>Lorena</td>
+		  	<td>García Mora</td>
+		  	<td>2225632561</td>
+		  </tr>
+		  <tr>
+		  	<td>Karen</td>
+		  	<td>Cordero Díaz</td>
+		  	<td>22245896575</td>
+		  </tr>
+		  <tr>
+		  	<td>Rogelio</td>
+		  	<td>Hernández Pérez</td>
+		  	<td>22325648</td>
+		  </tr>
+		  </tbody>
+	  <tfoot></tfoot>
+	  </table>
+</section>
+  <section>
+    <h2>Tabla modificada a través de CSS</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pretium erat, in malesuada arcu. Mauris posuere nunc eu nulla bibendum, id fermentum eros viverra. Donec aliquam, dolor non tincidunt suscipit, metus libero iaculis sem, eu rhoncus nunc arcu at erat. Phasellus ut lectus sit amet mi vulputate dignissim.</p>
+    <table border="1" id="tabla_1">
+      <thead>
+        <tr>
+          <th>NOMBRES</th>
+          <th>APELLIDOS</th>
+          <th>TELÉFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>DANIELA</td>
+          <td>Gamboa Romero</td>
+          <td>2224641947</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Ponce Serrano</td>
+          <td>221354865</td>
+        </tr>
+        <tr>
+          <td>Lorena</td>
+          <td>García Mora</td>
+          <td>2225632561</td>
+        </tr>
+        <tr>
+          <td>Karen</td>
+          <td>Cordero Díaz</td>
+          <td>22245896575</td>
+        </tr>
+        <tr>
+          <td>Rogelio</td>
+          <td>Hernández Pérez</td>
+          <td>22325648</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+    </section>
+<section>
+    <h2>Tabla modificando en hoover</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pretium erat, in malesuada arcu. Mauris posuere nunc eu nulla bibendum, id fermentum eros viverra. Donec aliquam, dolor non tincidunt suscipit, metus libero iaculis sem, eu rhoncus nunc arcu at erat. Phasellus ut lectus sit amet mi vulputate dignissim.</p>
+    <table border="1" class="tabla_2">
+      <thead>
+        <tr>
+          <th><br>
+            NOMBRES<br>
+            <br></th>
+<th>APELLIDOS</th>
+          <th>TELÉFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Daniela</td>
+          <td>Gamboa Romero</td>
+          <td>2224641947</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Ponce Serrano</td>
+          <td>221354865</td>
+        </tr>
+        <tr>
+          <td>Lorena</td>
+          <td>García Mora</td>
+          <td>2225632561</td>
+        </tr>
+        <tr>
+          <td>Karen</td>
+          <td>Cordero Díaz</td>
+          <td>22245896575</td>
+        </tr>
+        <tr>
+          <td>Rogelio</td>
+          <td>Hernández Pérez</td>
+          <td>22325648</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+    </section>
+  <section>
+    <h2>Tabla cebra (modificada por filas impares o pares)&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pretium erat, in malesuada arcu. Mauris posuere nunc eu nulla bibendum, id fermentum eros viverra. Donec aliquam, dolor non tincidunt suscipit, metus libero iaculis sem, eu rhoncus nunc arcu at erat. Phasellus ut lectus sit amet mi vulputate dignissim.</p>
+    <table width="80%" border="1" cellspacing="2" id="tabla_3">
+      <thead>
+		<tr>
+		  <th>Nombre</th>
+		  <th>Edad</th>
+		  <th>Email</th>
+		  <th>Teléfono</th>
+		  </tr></thead>
+		<tbody>
+        <tr>
+          <td>&nbsp;María García Pérez</td>
+          <td class="celda_centrada">&nbsp;15</td>
+          <td>&nbsp;maria@hotmail.com</td>
+          <td>&nbsp;2224541947</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Fernando Suarez Carmona</td>
+          <td class="celda_centrada">17</td>
+          <td>&nbsp;fer@hotmail.com</td>
+          <td>&nbsp;2225236254</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Gerardo Hernández López</td>
+          <td class="celda_centrada">&nbsp;13</td>
+          <td>&nbsp;gerry@gmail.com</td>
+          <td>2252624589</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Julián Beristain Serna</td>
+          <td class="celda_centrada">&nbsp;15</td>
+          <td>&nbsp;july@hotmail.com</td>
+          <td>&nbsp;2252145896</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Guadalupe Serrano Mora</td>
+          <td class="celda_centrada">&nbsp;16</td>
+          <td>&nbsp;lupita@outlook.com</td>
+          <td>&nbsp;2226245896</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mercedes Díaz Díaz</td>
+          <td class="celda_centrada">&nbsp;13</td>
+          <td>&nbsp;meche12@gmail.com</td>
+          <td>&nbsp;2145854593</td>
+        </tr>
+			 <tr>
+		  	<td>Mario Perez Gonzalez</td>
+		  	<td class="celda_centrada">16 </td>
+		  	<td>mario@hotmail.com</td>
+		  	<td>2226584751</td>
+		  </tr>
+		  <tr>
+		  	<td>Mario Perez Gonzalez</td>
+		  	<td class="celda_centrada">16 </td>
+		  	<td>mario@hotmail.com</td>
+		  	<td>2226584751</td>
+		  </tr>
+		  <tr>
+		  	<td>Mario Perez Gonzalez</td>
+		  	<td class="celda_centrada">16 </td>
+		  	<td>mario@hotmail.com</td>
+		  	<td>2226584751</td>
+		  </tr>
+		  <tr>
+		  	<td>Daniela Gamboa Romero</td>
+		  	<td class="celda_centrada">20 </td>
+		  	<td>danysgam@hotmail.com</td>
+		  	<td>2224641947</td>
+		  </tr>
+      </tbody>
+    </table>
+    
+  </section>
+  <section>
+<h2>Tabla receptiva&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pretium erat, in malesuada arcu. Mauris posuere nunc eu nulla bibendum, id fermentum eros viverra. Donec aliquam, dolor non tincidunt suscipit, metus libero iaculis sem, eu rhoncus nunc arcu at erat. Phasellus ut lectus sit amet mi vulputate dignissim.</p>
+    <div class="overflow_x">
+      <table width="80%" border="1" cellspacing="2" id="tabla_4">
+       <thead>
+		   <tr>
+            <th scope="col">&nbsp;Nombre</th>
+            <th scope="col">&nbsp;Apellido</th>
+            <th scope="col">&nbsp;Ronda 1</th>
+            <th scope="col">&nbsp;Ronda 2</th>
+            <th scope="col">&nbsp;Ronda 3</th>
+            <th scope="col">&nbsp;Ronda 4</th>
+            <th scope="col">&nbsp;Ronda 5</th>
+            <th scope="col">&nbsp;Ronda 6</th>
+            <th scope="col">&nbsp;Ronda 7</th>
+            <th scope="col">&nbsp;Ronda 8</th>
+            <th scope="col">&nbsp;Ronda 9</th>
+            <th scope="col">&nbsp;Ronda 10</th>
+          </tr>
+		  </thead> 
+		  <tbody>
+          <tr>
+            <td>&nbsp;Mariana</td>
+            <td>&nbsp;Úrsulo</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;3</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;7</td>
+          </tr>
+          <tr>
+            <td>&nbsp;César</td>
+            <td>&nbsp;Melgoza</td>
+            <td>10</td>
+            <td>&nbsp;7</td>
+            <td>10</td>
+            <td>7</td>
+            <td>&nbsp;2</td>
+            <td>&nbsp;3</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;7</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Andrea</td>
+            <td>&nbsp;Maldonado</td>
+            <td>8</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;6</td>
+            <td>&nbsp;4</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;8</td>
+            <td>9</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<p>&nbsp;</p>
+</section>
+</main>
+<footer>
+  <h6>Sitio elaborado por: Daniela Gamboa Romero</h6>
+</footer>
+</body>
+</html>
